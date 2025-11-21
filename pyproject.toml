@@ -1,0 +1,15 @@
+[project]
+name = "langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "ipython",
+    "langchain-openai",
+    "langchain-community",
+    "python-dotenv",
+    "chromadb",
+    "langchain-chroma",
+]
