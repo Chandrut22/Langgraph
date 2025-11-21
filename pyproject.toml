@@ -1,10 +1,11 @@
 [project]
-name = "langgraph"
+name = "langgraph-app"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "langgraph",
     "langchain",
     "ipython",
     "langchain-openai",
