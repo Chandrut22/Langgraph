@@ -13,6 +13,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
 def process_message(state: AgentState) -> AgentState:
     response = llm.invoke([HumanMessage(content=state["message"])])
+    print(response)
     print(f"AI: {response.content}")
     return state
 
